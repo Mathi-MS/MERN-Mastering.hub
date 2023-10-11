@@ -17,7 +17,7 @@
     padding: 0px;
     box-sizing: border-box;
     background-color:black;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
   .navbaro{
     background-color: rgb(135 129 129 / 9%) !important;
@@ -66,9 +66,7 @@
     border: 1px solid #F4E869;
     padding: 4px;
   }
-  .cbody{
-    margin-left: 3rem;
-  }
+
   @media screen and (max-width: 1200px){
   .scroll::-webkit-scrollbar {
       visibility: hidden ; 
@@ -100,7 +98,7 @@
   <body>
     <section id="nav">
       <nav class="navbar navbaro navbar-expand-lg navbar-light bg-warning">
-      <div class="container">
+      <div class="container" style="width: 100vw !important;">
         <a class="navbar-brand" href="#"><img src="mernhub-logo.png" alt="" width="130vw"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa-solid fa-bars" style="color: #FFD700;"></i>
@@ -119,10 +117,10 @@
     </section>
 
     <section id="Courses" class="">
-      <div class="container-fluild cbody">
+      <div class="container-fluid cbody">
         <div class="row">
-          <div class="col col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
-            <div class="card" style="width: 24.3rem;">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
+            <div class="card" >
               <img src="images/2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">HTML</h5>
@@ -131,8 +129,8 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
-            <div class="card" style="width: 24.3rem;">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
+            <div class="card" >
               <img src="images/3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">CSS</h5>
@@ -141,8 +139,8 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
-            <div class="card" style="width: 24.3rem;">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
+            <div class="card" >
               <img src="images/4.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">BOOTSTRAP(framework)</h5>
@@ -151,8 +149,8 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
-            <div class="card" style="width: 24.3rem;">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
+            <div class="card" >
               <img src="images/5.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">JAVA SCRIPT</h5>
@@ -161,8 +159,8 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
-            <div class="card" style="width: 24.3rem;">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
+            <div class="card" >
               <img src="images/6.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">REACT JS</h5>
@@ -171,8 +169,8 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
-            <div class="card" style="width: 24.3rem;">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
+            <div class="card" >
               <img src="images/7.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">NODE JS</h5>
@@ -181,8 +179,8 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
-            <div class="card" style="width: 24.3rem;">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
+            <div class="card" >
               <img src="images/8.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">EXPRESS JS</h5>
@@ -191,8 +189,8 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
-            <div class="card" style="width: 24.3rem;">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
+            <div class="card" >
               <img src="images/9.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">MONGO DB</h5>
@@ -201,8 +199,8 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
-            <div class="card" style="width: 24.3rem;">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-5">
+            <div class="card" >
               <img src="images/10.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">LIVE CLASSES</h5>
