@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="icon" href="../images/bootstrap.png">  <title>BOOTSTRAP</title>
+
+
+  <style>
+    body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color:black;
+  overflow-x: hidden !important;
+}
+.navbaro{
+  background-color: #444442 !important;
+  font-size: 12px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.navbar-brand{
+  color: white !important;
+}
+.form-control{
+  height: 30px !important;
+}
+.coursefirst{
+  font-size: 29px;
+  padding: 0px;
+}
+.firstbtn{
+  border-color: black !important;
+  color: black !important;
+}
+.firstbtn:hover{
+  color: white !important;
+}
+.first:focus{
+  outline:none !important;
+}
+/* ---------------------------------------- navtwo */
+.navtwoh{
+  margin-top: 60px;
+  background: black !important;
+
+}
+.brando{
+  color: white !important;
+  font-size: 14px;
+}
+.brando:hover{
+  color: #F4E869 !important;
+
+}
+.scroll{
+  display: flex ;
+  justify-content: space-around ;
+  width: 100vw;
+  z-index: 3;
+}
+.scroll .navtwospan{
+  color: #F4E869 !important;
+  border: 1px solid #F4E869;
+  padding: 4px;
+}
+.sidenav{
+  background: #444442 !important;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .main{
+    width: 100vw !important;
+    display: flex;
+    justify-content: center;
+  }
+  .main iframe{
+    width: 90vw !important;
+    height: 70vw !important;
+  }
+  .sidenav{
+    display: none !important;
+  }
+  .cont-to{
+    margin-left: 5vw !important;
+    margin-top: 2vw !important;
+  }
+  .cont-to h1{
+    font-size: 5vw !important;
+  }
+  .scroll::-webkit-scrollbar {
+    visibility: hidden ; 
+  }
+.scroll{
+  display: flex;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  overflow-x: scroll;
+  justify-content: start;
+  gap: 12vw;
+}
+textarea{
+  width: 100% !important;
+}
+.Assignment{
+  width: 100% !important;
+}
+.next-back{
+  width: 100% !important;
+}
+
+  }
+  </style>
+
+
+</head>
+  <body>
+    <section id="nav">
+      <nav class="navbar navbaro navbar-expand-lg navbar-light bg-warning fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="../images/mernhub-logo.png" alt="" width="120vw "></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item active">
+                <a class="nav-link coursefirst " href="../courses.html">Courses<span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control outline-dark mr-sm-2 first" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark my-2 my-sm-0 p-1 firstbtn" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section id="navtwo" >
+      <!-- As a link -->
+      <nav class="navbar navbar-light bg-dark navtwoh ">
+        <div class=" scroll">
+          <a class="navbar-brand brando " href="../html.html">HTML</a>
+          <a class="navbar-brand brando " href="../css.html">CSS</a>
+          <a class="navbar-brand brando navtwospan" href="../bootstrap.html">BOOTSTRAP</a>
+          <a class="navbar-brand brando " href="../javascript.html">JAVASCRIPT</a>
+          <a class="navbar-brand brando " href="../mongodb.html">MONGODB</a>
+          <a class="navbar-brand brando " href="../express.html">EXPRESS JS</a>
+          <a class="navbar-brand brando " href="../react.html">REACT JS</a>
+          <a class="navbar-brand brando " href="../node.html">NODE JS</a>
+        </div>
+      </nav>
+    </section>
+    <section>
+      <h5 class="pt-5 pl-5"><a class="text-dark" href="../courses.html">COURSES</a> / <a class="text-dark" href="../bootstrap.html">BOOTSTRAP</a> / <a href="threeb.html">Day3</a></h5>
+    </section>
+    <section>
+      <div class="sidenav bg-dark fixed-top d-flex justify-content-center " style="width: 30%; height: 100vh; z-index: -1; left: 70vw; z-index: 2;">
+        <div class="next mt-5  pt-5 text-center">
+          <div class="card mt-5 " style="width: 18rem;">
+            <img src="../images/word-art-animated.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Successfully Completed BOOTSTRAP</h5>
+              <p class="card-text"></p>
+              <a href="../javascript.html" class="btn btn-primary">Go Next</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main d-flex justify-content-center mt-5" style="width: 70%;">
+        <iframe src="https://www.youtube.com/embed/A2KAbA5KCAc" frameborder="0" style="width: 50vw; height: 30vw;"></iframe>
+      </div>
+    </section>
+    <section  style=" text-align: start; margin-left: 10vw; margin-top: 1vw;" class="cont-to">
+      <h1  class="text-light pb-5" style="font-size: 2vw;">AOS ANIMATION</h1>
+      <div class="d-flex justify-content-between next-back" style="width: 55%;">
+        <a href="twob.html" class="  mx-5 mb-3 back">BACK</a>
+      <a href="../javascript.html" class="  mx-5 mb-3 next" >NEXT</a>
+      </div>
+    </section>
+    <section id="notes" style="width: 100vw; background-color: white; " class="pl-5 pr-5">
+      <div>
+        <h2>Notes</h2>
+        <textarea name="Notes" id="note" cols="50" rows="10" placeholder="Let's Take  a Notes" style="overflow: hidden; width: 67%;"></textarea>
+        <h2>Assignment</h2>
+        <div class="Assignment" style="width: 67%; border: solid 2px grey; padding: 10px;">
+          <p>1.Search AOS in the google and copy that javascript and headtag in the websute and apply to your website</p>
+          <form action="">
+            <input type="file"><br>
+            <div class="btn d-flex justify-content-center">
+              <a href="#" class="btn btn-primary">Submit</a>
+            </div>
+          </form>
+        </div>        
+      </div>
+    </section>
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

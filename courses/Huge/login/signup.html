@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="icon" href="../images/mernhub-logo.png">  
+  <title>MERN-HUB</title>
+
+
+  <style>
+    body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden !important;
+}
+.username:focus,.password:focus,.email:focus{
+    outline: none !important;
+  }
+
+@media screen and (max-width: 1200px) {
+  #left{
+    display: none !important;
+  }
+  .username,.password,.email{
+    width: 70vw !important;
+  }
+  .imagee{
+    width: 20vw !important;
+    height: 20vw !important;
+  }
+  #on,#off{
+    font-size: 8vw !important;
+  }
+  #off{
+    left: 6.2vw !important;
+  }
+  
+}
+</style>
+</head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col d-flex justify-content-center" id="left" style="width: 50vw; height: 100vh;color: white; background-color: black;">
+          <img src="../images/Cgifperfect.gif" alt="" id="leftt" >
+        </div>
+        <div id="black" class="col" id="right" style="width: 50vw; height: 100vh;background-color: white;">
+          <div class="toggle d-flex justify-content-end p-3 pr-5">
+            <i style="font-size: 3vw; color: black; position: relative; left: 3vw; " class="fa-solid fa-toggle-off "id="off"></i>
+          <i  style="font-size: 3vw; color: white;visibility: hidden" class="fa-solid fa-toggle-on " id="on"></i>
+          </div>
+          <div class="d-flex text-center flex-column align-items-center
+          white" >
+            <div>
+              <img src="../images/right.gif" class="img-thumbnail  imagee" alt="..." style="width: 6vw ; height: 6vw ; border-radius: 500px ;" id="imagee">
+            </div>
+            <div class="">
+              <h1 >Sign up</h1>
+            </div>
+            <div>
+              <form action="#"  >
+                <div>
+                  <input type="text" placeholder="Firstname" style="width: 20vw; border-radius: 8px; "class="username p-1 ">
+                <p id="usernamelabel" style="visibility: hidden;">Enter Firstname</p>
+                </div>
+                <div>
+                  <input type="email" placeholder="Email" style="width: 20vw; border-radius: 8px; "class="email p-1 ">
+                <p id="emaillabel" style="visibility: hidden;">Enter Email</p>
+                </div>
+                <div>
+                  <input type="password" placeholder="Password" style="width: 20vw; border-radius: 8px;   "class="password p-1 ">
+                <p id="passwordlabel" style="visibility: hidden;">Enter Password</p>
+
+                <input type="button" id="btn" value="Signup" style="background-color: black; color: white; border-radius: 15px; border: solid 2px grey;" class="px-3 py-1 mt-1">
+              </form>
+            </div>
+            <div>
+              <p class="mt-2">Get start |<a href="signin.html"> Login</a></p>
+            </div>
+            <a href="#"><img src="../images/mernhub-logo.png" alt="" width="90vw" class="mt-5"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="signup.js">
+
+  </script>
+</body>
+</html>
